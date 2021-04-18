@@ -1,6 +1,19 @@
+@keyframes animacion_test{
+    from{
+        background-color:  rgb(92, 102, 255);
+    }
+    to{
+        background-color:  rgb(30, 33, 202);
+    }
+}
+
 body{
-    margin: 0;
-    background-color: #495D63;
+    background-color: rgb(220, 152, 251);
+
+    animation: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 h1{
     margin-left: 10%;
