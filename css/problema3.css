@@ -1,9 +1,9 @@
 @keyframes animacion_test{
     from{
-        background-color:  rgb(92, 102, 255);
+        background-color:  rgb(92, 255, 155);
     }
     to{
-        background-color:  rgb(30, 33, 202);
+        background-color:  rgb(172, 137, 172);
     }
 }
 
@@ -20,7 +20,7 @@ h1{
 }
 div{
     width: 80%;
-    background-color: #98B6B1;
+    background-color: #6361eb;
     margin-left: 10%;
     border-radius: 1rem;
 }
@@ -28,7 +28,7 @@ p{
     text-align: center;
 }
 footer{
-    background-color: #98B6B1;
+    background-color: #6361eb;
 }
 a{
     color: black;
@@ -48,7 +48,7 @@ input{
 }
 button{
     border-radius: 1rem;
-    background-color: #D7BCC8;
+    background-color: #0c85a3;
     height: 1.5rem;
     width: 15%;
     border: 0;
