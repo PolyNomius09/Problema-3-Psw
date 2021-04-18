@@ -7,7 +7,7 @@ function enviar(){
     var valor = document.querySelector('.entrada').value;
     var validar = validacion(valor);
     if(validar==true){
-        alert("Validacion aceptda");
+        alert("Validacion aceptada");
         var textoDividido = dividirTexto(valor);
         alert(textoDividido);
         var tamañoArray = textoDividido.length;
