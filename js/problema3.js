@@ -20,16 +20,7 @@ function enviar(){
         //location.reload();
     }
 }
-/*
-La validacion recarga la pagina porque sino obtenia
-un error muy raro, no es la solucion optima, pero funciona:
-Si introduces un valor "erroneo" lo va  rechazar, pero si
-vuelves a introducir un valor erroneo cuya longitud coincida con n-1
-siendo n el numero de veces que has introducido un valor erroneo, lo aprueba xd.
-Ejemplo: Introduzco "zzz", "zazazaza", "rrr" y "xdx"
-normalmente rechazaria "xdx" por no estar en mayusculas
-pero como he introducido 4 veces un valor erroneo lo aprueba xd.
-*/
+
 function validacion(valor){
     var validacionComas = caracteresNoValidos.test(valor);
     if(valor==""){
